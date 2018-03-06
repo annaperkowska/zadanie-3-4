@@ -439,10 +439,37 @@ url("../images/hero.png");
 .download-button button:hover {
 	background: #cc124f;
 }
+.footer {
+	background: #2b2b2b;
+}
+.footer .row {
+	display: flex;
+}
+.footer p {
+	flex: 1;
+	justify-content: center;
+	color: #FFF;
+	font-size: 12px;
+	margin: 30px;
+	padding-left: 220px;
+}
+.footer span {
+	color: #ed145b;
+}
+.footer .designed-by {
+	margin-left: 100px;
+}
 
-
-
-
+@media (max-width: 767px){
+	.container {
+		width: 80%;
+	}
+}
+/*
+@media(min-width: 768px) and (max-width: 991px)
+@media(min-width: 992px) and (max-width: 1199px)
+@media(min-width: 1200px) 
+*/
 
 
 
